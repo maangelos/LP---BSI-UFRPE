@@ -1,3 +1,5 @@
+#https://www.urionlinejudge.com.br/judge/en/problems/view/1121
+
 def novaDirecao(direcao,comando):
     if direcao == "N":
         if comando == "D":
