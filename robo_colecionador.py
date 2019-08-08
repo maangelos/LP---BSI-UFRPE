@@ -68,9 +68,7 @@ while True:
         entrada = input().split()
         if entrada == ["0","0","0"]:
             break
-        nLinhas = int(entrada[0])
-        nColunas = int(entrada[1])
-        nComandos = int(entrada[2])
+        nLinhas, nColunas, nComandos = int(entrada[0]),int(entrada[1]),int(entrada[2])
 
         #plotar arena
         arena = []
